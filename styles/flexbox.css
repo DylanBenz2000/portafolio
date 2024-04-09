@@ -1,0 +1,40 @@
+.nav__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo__nombre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav__container .nav__items{
+    display: flex;
+    gap: 20px;
+}
+
+
+
+/* MOVILES */
+@media screen and (max-width: 800px) {
+    /* Oculta los enlaces, excepto el de contacto, en dispositivos móviles */
+    .nav__items a:not(.nav__contacto) {
+        display: none;
+    }
+
+    .nav__contacto {
+        font-weight: normal;
+    }
+}
+
+/* TABLETAS */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    /* Oculta los enlaces, excepto el de contacto, en tabletas */
+    .nav__items a:not(.nav__contacto) {
+        display: none;
+    }
+
+}
