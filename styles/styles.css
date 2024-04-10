@@ -14,16 +14,17 @@ body{
 }
 
 .nav__container{
-    background-color: #E5F1FF;
+    background-color: #FFFFFF;
     height: 80px;
     width: 100%;
-    padding: 0 25px;
+    /* padding: 0 25px; */
+    padding: 12px 14px; 
 }
 
 .logo{
     background-image: url(../assets/navbar/Group.png);
     background-repeat: no-repeat;
-    padding: 10px 20px;
+    padding: 7px 17px;
     cursor: pointer;
     background-size: contain;
 }
@@ -34,4 +35,51 @@ body{
 
 .logo__nombre p {
     font-weight: bold;
+}
+
+.presentacion{
+    background-color: #FFFFFF;
+
+    padding: 12px 14px; 
+}
+
+.presentacion h2{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.imagen-circular {
+    width: 250px; /* Ajusta el tamaño según sea necesario */
+    height: 250px; /* Ajusta el tamaño según sea necesario */
+    background-image: url('../assets/presentación/yo.jpg');
+    background-size: cover;
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+}
+
+.redes-sociales{
+    font-size: 12px;
+}
+
+.sobre-mi{
+    background-color: #E5F1FF;
+    padding: 12px 14px;
+}
+
+.text-sobre-mi{
+    overflow-wrap: break-word;
+}
+
+.text-sobre-mi h3{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-sobre-mi h3,
+.text-sobre-mi p{
+    margin: 30px 10px;
+}
+
+.firma{
+    width: 140px;
+    background-size: cover;
 }
