@@ -2,6 +2,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: fixed;
+    top: 0;
 }
 
 .logo__nombre{
@@ -37,14 +39,31 @@
 }
 
 .anchors{
-        display: flex;
-        flex-wrap: wrap;
-        gap: 20px;
-        margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin: 10px;
+}
+
+
+.container-skills{
+    text-align: center;
+}
+
+.box-skills{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
 
 
+.hard-skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
 
 /* MOVILES */
 @media screen and (max-width: 800px) {
@@ -80,6 +99,17 @@
         order: -1;
     }
 
+    .box-skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hard-skills{
+        margin: 0 auto;
+    }
+
 }
 
 /* TABLETAS */
@@ -107,6 +137,19 @@
         width: 130px;
         height: 130px;
         margin-right: 20px;
+    }
+
+    .box-skills{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hard-skills{
+        margin: 0 auto;
+        width: 150px;
+        height: 80px;
     }
 
 }

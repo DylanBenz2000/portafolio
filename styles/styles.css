@@ -11,6 +11,7 @@ body{
     overflow: auto;
     font-size: 14px;
     color: #464646;
+    margin-top: 80px;
 }
 
 .nav__container{
@@ -83,3 +84,34 @@ body{
     width: 140px;
     background-size: cover;
 }
+
+.skills{
+    background-color: #ECECEC;
+}
+
+.container-skills{
+    padding: 30px;
+}
+
+.container-skills h4{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.container-skills h5{
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+
+
+.hard-skills{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+}
+
+
