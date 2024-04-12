@@ -70,9 +70,11 @@
 
 .formacion-y-cursos{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
+    /* justify-content: space-between; */
 }
 
 .title-formacion-y-cursos{
@@ -84,12 +86,11 @@
 }
 
 .container-formacion{
-    width: 100%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 40px;
+    gap: 30px;
     justify-items: center;
-    /* justify-content: center; */
     align-items: stretch;
 }
 
@@ -132,6 +133,8 @@
     font-weight: bold;
     font-size: 14px;
 }
+
+
 
 .card-formacion .contenido .subtitle-formacion{
     line-height: 1.5;
@@ -181,14 +184,14 @@
     }
 
     .container-formacion{
-        width: 350px;
+        width: 280px; 
         grid-template-columns: repeat(1, 1fr);
         justify-content: center;
         /* gap: 30px; */
     }
 
     .card-formacion{
-        width: 350px;
+        width: 260px;
         border-radius: 6px;
         overflow: hidden;
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
@@ -202,7 +205,7 @@
     }
 
     .card-img{
-        width: 350px;
+        width: 260px;
         height: 200px;
     }
 
@@ -210,7 +213,8 @@
 }
 
 /* TABLETAS */
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+@media screen and (min-width: 768px) and (max-width: 1366px) {
     /* Oculta los enlaces, excepto el de contacto, en tabletas */
     .nav__items a:not(.nav__contacto) {
         display: none;
@@ -238,7 +242,7 @@
 
     .box-skills{
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         justify-content: center;
         align-items: center;
     }
@@ -254,6 +258,8 @@
         grid-template-columns: repeat(2, 1fr);
         justify-content: center;
         /* gap: 30px; */
+        gap: 40px;
+        border: 3px solid red;
     }
 
     .card-formacion{
@@ -263,6 +269,7 @@
         box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
         cursor: default;
         transition: all 400ms ease;
+        border: 3px solid blue;
     }
 
     .contenido{
