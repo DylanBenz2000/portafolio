@@ -3,8 +3,9 @@
 }
 
 body{
-    font-family: "Inter", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-weight: 400;
+    font-style: normal;
     position: relative;
     width: 100%;
     height: 100vh;
@@ -13,6 +14,8 @@ body{
     color: #464646;
     margin-top: 80px;
 }
+
+/* NAV */
 
 .nav__container{
     background-color: #FFFFFF;
@@ -50,16 +53,18 @@ body{
 }
 
 .imagen-circular {
-    width: 250px; /* Ajusta el tamaño según sea necesario */
-    height: 250px; /* Ajusta el tamaño según sea necesario */
+    width: 250px;
+    height: 250px; 
     background-image: url('../assets/presentación/yo.jpg');
     background-size: cover;
-    border-radius: 50%; /* Hace que el contenedor sea circular */
+    border-radius: 50%;
 }
 
 .redes-sociales{
     font-size: 12px;
 }
+
+/* Sobre mi */
 
 .sobre-mi{
     background-color: #E5F1FF;
@@ -85,6 +90,8 @@ body{
     background-size: cover;
 }
 
+/* Skills */
+
 .skills{
     background-color: #ECECEC;
 }
@@ -94,19 +101,17 @@ body{
 }
 
 .container-skills h4{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     padding-bottom: 30px;
 }
 
 .container-skills h5{
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
     padding-bottom: 30px;
     padding-top: 30px;
 }
-
-
 
 .hard-skills{
     width: 100px;
@@ -115,3 +120,8 @@ body{
 }
 
 
+/* Formaciones */
+
+.formacion-y-cursos{
+    background-color: #E5F1FF;
+}

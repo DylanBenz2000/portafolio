@@ -56,13 +56,85 @@
     gap: 30px;
 }
 
-
-
 .hard-skills{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     flex-direction: column;
+
+}
+
+/* Formaciones */
+
+
+
+.formacion-y-cursos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+.title-formacion-y-cursos{
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.container-formacion{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    justify-items: center;
+    /* justify-content: center; */
+    align-items: stretch;
+}
+
+.card-formacion{
+    width: 320px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+
+.card-formacion:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}
+
+.card-img{
+    width: 320px;
+    height: 210px;
+    background-color: white;
+    border-bottom: 3px solid #B8D7FF;
+}
+
+.contenido{
+    max-height: 100px;
+    overflow: hidden;
+}
+
+.card-formacion .container-formacion{
+    padding: 15px;
+}
+
+.card-formacion .contenido{
+    padding: 15px;
+    text-align: center;
+}
+
+.card-formacion .contenido .title-formacion{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.card-formacion .contenido .subtitle-formacion{
+    line-height: 1.5;
 }
 
 /* MOVILES */
@@ -102,13 +174,38 @@
     .box-skills{
         display: grid;
         grid-template-columns: 1fr 1fr;
-        justify-content: center;
-        align-items: center;
     }
 
     .hard-skills{
         margin: 0 auto;
     }
+
+    .container-formacion{
+        width: 350px;
+        grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
+        /* gap: 30px; */
+    }
+
+    .card-formacion{
+        width: 350px;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
+
+    .contenido{
+        max-height: 130px;
+        overflow: hidden;
+    }
+
+    .card-img{
+        width: 350px;
+        height: 200px;
+    }
+
 
 }
 
@@ -150,6 +247,32 @@
         margin: 0 auto;
         width: 150px;
         height: 80px;
+    }
+
+    .container-formacion{
+        width: 350px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+        /* gap: 30px; */
+    }
+
+    .card-formacion{
+        width: 350px;
+        border-radius: 6px;
+        overflow: hidden;
+        box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2);
+        cursor: default;
+        transition: all 400ms ease;
+    }
+
+    .contenido{
+        max-height: 130px;
+        overflow: hidden;
+    }
+
+    .card-img{
+        width: 350px;
+        height: 200px;
     }
 
 }
