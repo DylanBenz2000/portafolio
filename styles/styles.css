@@ -18,7 +18,7 @@ body{
 /* NAV */
 
 .nav__container{
-    background-color: #FFFFFF;
+    background-color: #ECECEC;
     height: 80px;
     width: 100%;
     /* padding: 0 25px; */
@@ -42,7 +42,7 @@ body{
 }
 
 .presentacion{
-    background-color: #FFFFFF;
+    background-color: #ECECEC;
 
     padding: 12px 14px; 
 }
@@ -125,3 +125,84 @@ body{
 .formacion-y-cursos{
     background-color: #E5F1FF;
 }
+
+
+/* Experiencia */
+.experiencia{
+    background-color: #ECECEC;
+}
+
+.title-experiencia{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.experiencia p{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contenido-exp .title-exp{
+    font-weight: bold;
+    font-size: 15px;
+    padding-bottom: 10px;
+}
+
+.contenido-exp .subtitle-exp{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+
+.repo{
+    width: 120px;
+    height: 50px;
+    border: 2px solid #2A7AE4;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    cursor: pointer;
+}
+
+.demo{
+    width: 120px;
+    height: 50px;
+    color: #fff;
+    background-color: #2A7AE4;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: center;
+    border: 2px solid #2A7AE4;
+    cursor: pointer;
+}
+
+/* CONTACTO */
+
+.contacto{
+    background-color: #E5F1FF;
+}
+
+.contenido-contacto h2 {
+    margin-bottom: 20px; /* Agrega un margen inferior de 20px al título */
+}
+
+.contenido-contacto p {
+    margin-bottom: 10px; /* Agrega un margen inferior de 10px a los párrafos */
+}
+
+.title-contacto{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.contenido-contacto p{
+    font-size: 14px;
+}
+
+footer{
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #ECECEC;
+}
+
+

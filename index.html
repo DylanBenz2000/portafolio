@@ -231,15 +231,102 @@
 
         </section>
 
-        <section id="experiencia">
-            <!-- Contenido sobre tu experiencia profesional -->
+        <section id="experiencia" class="experiencia">
+
+            <h2 class="title-experiencia">Experiencia</h2>
+
+            <div class="container-experiencia">
+                
+                <div class="card-experiencia">
+                    <figure>
+                        <img class="card-img-exp" src="./assets/experiencia/barbería-alura.png" alt="">
+                    </figure>
+                    <div class="contenido-exp">
+                        <p class="title-exp">Barbería Alura</p>
+                        <p class="subtitle-exp">Challenge Alura</p>
+                        <button class="repo">Repositorio</button>
+                        <button class="demo">Ver demo</button>
+                    </div>
+                </div>
+
+
+                <div class="card-experiencia">
+                    <figure>
+                        <img class="card-img-exp" src="./assets/experiencia/encriptador-alura.png" alt="">
+                    </figure>
+                    <div class="contenido-exp">
+                        <p class="title-exp">Encriptador de texto</p>
+                        <p class="subtitle-exp">Challenge Oracle</p>
+                        <button class="repo">Repositorio</button>
+                        <button class="demo">Ver demo</button>
+                    </div>
+                </div>
+
+                <div class="card-experiencia">
+                    <figure>
+                        <img class="card-img-exp" src="./assets/experiencia/encriptador-alura.png" alt="">
+                    </figure>
+                    <div class="contenido-exp">
+                        <p class="title-exp">xd</p>
+                        <p class="subtitle-exp">hola</p>
+                        <button class="repo">Repositorio</button>
+                        <button class="demo">Ver demo</button>
+                    </div>
+                </div>
+
+            </div>
         </section>
 
-        <section id="contacto">
-            <!-- Contenido de contacto -->
+        <section id="contacto" class="contacto">
+            <div class="form-contacto">
+
+                <figure>
+                    <img class="img-contacto" src="./assets/contacto/telefono.png" alt="">
+                </figure>
+
+
+                <form action="submit.php" method="post">
+
+                    <div class="contenido-contacto">
+                        
+                        <h2 class="title-contacto">Contacto</h2>
+
+                        <p>¿Quieres contactarme?</p>
+                    
+                        <p>Complete el siguiente formulario, y me pondré en contacto con usted lo antes posible.</p>
+                    </div>
+                
+
+                    <div class="form-label-input">
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+                    </div>
+
+                    <div class="form-label-input">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-label-input">
+                        <label for="asunto">Asunto:</label>
+                        <input type="text" id="asunto" name="asunto" required>
+                    </div>
+
+                    <div class="form-label-input">
+                        <label for="mensaje">Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+                    </div>
+
+                    <button class="button-form" type="submit">Enviar Mensaje</button>
+
+                </form>
+            </div>
+
         </section>
     </main>
 
+
+    <footer>Desarrollado por Dylan Benítez <br> 2024</footer>
 
 
     <script src="./javascript/formacion/formacion.js"></script>
