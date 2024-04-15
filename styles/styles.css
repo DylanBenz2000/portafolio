@@ -75,14 +75,19 @@ body{
     overflow-wrap: break-word;
 }
 
-.text-sobre-mi h3{
+.title-secciones{
     font-size: 15px;
     font-weight: bold;
+    padding-bottom: 20px;
 }
+/* .text-sobre-mi h3{
+    font-size: 15px;
+    font-weight: bold;
+} */
 
 .text-sobre-mi h3,
 .text-sobre-mi p{
-    margin: 30px 10px;
+    margin: 20px 10px;
 }
 
 .firma{
@@ -100,15 +105,9 @@ body{
     padding: 30px;
 }
 
-.container-skills h4{
-    font-size: 15px;
-    font-weight: bold;
-    padding-bottom: 30px;
-}
 
-.container-skills h5{
-    font-size: 15px;
-    font-weight: bold;
+
+.container-skills .title-secciones{
     padding-bottom: 30px;
     padding-top: 30px;
 }

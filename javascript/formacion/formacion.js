@@ -1,5 +1,5 @@
 // Seleccionar todas las imágenes dentro de la galería
-const galleryImages = document.querySelectorAll('figure img');
+const galleryImages = document.querySelectorAll('#formacion-y-cursos .card-img, #experiencia .card-img-exp');
 
 // Función para alternar entre el modo de pantalla completa
 function toggleFullScreen(image) {

@@ -78,12 +78,10 @@
     /* justify-content: space-between; */
 }
 
-.title-formacion-y-cursos{
-    font-weight: bold;
-    font-size: 15px;
-    text-align: center;
+.formacion-y-cursos .title-secciones{
     margin-top: 30px;
     margin-bottom: 30px;
+    text-align: center;
 }
 
 .container-formacion{
