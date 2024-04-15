@@ -32,3 +32,5 @@ document.addEventListener("fullscreenchange", function() {
         console.log("Saliendo de pantalla completa");
     }
 });
+
+
