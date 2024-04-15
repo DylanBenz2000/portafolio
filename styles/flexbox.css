@@ -280,6 +280,16 @@ textarea{
         margin: 0 auto;
     }
 
+    .container-skills .marg-1{
+        padding-top: 0;
+    }
+    
+    
+    .container-skills .marg-2{
+        padding-top: 20px;
+    }
+    
+
     .container-formacion{
         width: 280px; 
         grid-template-columns: repeat(1, 1fr);
@@ -391,6 +401,15 @@ textarea{
         margin: 0 auto;
         width: 150px;
         height: 80px;
+    }
+
+    .container-skills .marg-1{
+        padding-top: 0;
+    }
+    
+    
+    .container-skills .marg-2{
+        padding-top: 20px;
     }
 
     .container-formacion{
