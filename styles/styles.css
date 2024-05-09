@@ -36,13 +36,20 @@ body{
     font-weight: bold;
 }
 
+.nav__link, .nav__skills, .nav__hobbies, .nav__proyectos, .nav__contacto {
+    transition: color 0.3s ease;
+}
+
+.nav__link:hover, .nav__skills:hover, .nav__hobbies:hover, .nav__proyectos:hover, .nav__contacto:hover {
+    color: #2A7AE4;
+}
+
 .logo__nombre p {
     font-weight: bold;
 }
 
 .presentacion{
     background-color: #ECECEC;
-
     padding: 12px 14px; 
 }
 
@@ -57,10 +64,19 @@ body{
     background-image: url('../assets/presentación/yo.jpg');
     background-size: cover;
     border-radius: 50%;
+    transition: transform 0.3s ease; 
+}
+
+.imagen-circular:hover{
+    transform: scale(1.1);
 }
 
 .redes-sociales{
     font-size: 12px;
+    transition: color 0.3s ease;
+}
+.redes-sociales:hover{
+    color: #2A7AE4;
 }
 
 /* Sobre mi */
@@ -125,6 +141,12 @@ body{
     background-color: white;
 }
 
+.hard-skills:hover{
+    background-color: #2A7AE4;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
 
 /* Formaciones */
 
@@ -150,12 +172,12 @@ body{
 
 .contenido-exp .title-exp{
     font-weight: bold;
-    font-size: 15px;
+    font-size: 18px;
     padding-bottom: 10px;
 }
 
 .contenido-exp .subtitle-exp{
-    font-size: 12px;
+    font-size: 13px;
     padding-bottom: 10px;
 }
 
@@ -167,6 +189,14 @@ body{
     white-space: nowrap;
     text-align: center;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.repo:hover{
+    background-color: #29CC97;
+    border-color: #29CC97;
+    color: white;
+    transform: translateY(-3px);
 }
 
 .demo{
@@ -179,6 +209,15 @@ body{
     text-align: center;
     border: 2px solid #2A7AE4;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.demo:hover{
+    background-color: #AF5CF2;
+    border-color: #AF5CF2;
+    color: white;
+    transform: translateY(-3px);
+    border: none;
 }
 
 /* CONTACTO */

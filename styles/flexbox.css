@@ -169,6 +169,17 @@
     display: flex;
     align-items: center;
     gap: 15px;
+    
+    
+}
+
+.card-experiencia figure{
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card-experiencia figure:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
 
 /* CONTACTO */
@@ -193,6 +204,19 @@
     display: flex;
     flex-direction: column;
     margin-top: 15px;
+}
+
+.form-label-input input[type="text"],
+.form-label-input input[type="email"],
+.form-label-input textarea {
+    transition: box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.form-label-input input[type="text"]:focus,
+.form-label-input input[type="email"]:focus,
+.form-label-input textarea:focus {
+    border-color: #2A7AE4;
+    box-shadow: 0 0 5px rgba(42, 122, 228, 0.5);
 }
 
 input{
@@ -235,6 +259,13 @@ textarea{
     height: 50px;
     text-align: center;
     cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.button-form:hover{
+    background-color: #29CC97;
+    border-color: #29CC97;
+    color: white;
 }
 
 /* MOVILES */
